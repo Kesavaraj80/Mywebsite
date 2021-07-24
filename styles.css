@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    max-height: 100vh;
+    max-width: 1440px;
+}
+
+.con1{
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    min-width: 250px;
+    width: 500px;
+    height: 500px;
+    background-color:white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 39px -8px rgba(0,0,0,0.72);
+}
+.himg1{
+    border-radius: 18px 18px 0 0;
+    width: 100%;
+}
+.pimg{
+    position: absolute;
+    border-radius: 50%;
+    border: white solid;
+    top: 7.5rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 10rem;
+    width: 10rem;
+}
+.namec{
+    position: absolute;
+    top: 55%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 60px;
+}
+.name{
+    position: absolute;
+    margin-left: 180px;
+    margin-right: 170px;
+    font-size: 2rem;
+    font-family: 'Niconne', cursive;
+}
+.loc{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 210px;
+    margin-right: 170px;
+    font-size: 2rem;
+    font-family: 'Niconne', cursive;
+}
+.mdet{
+    border-top: 1px grey groove ;
+    position: absolute;
+    top: 75%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 60px;
+}
+.count-box1{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.count-box2{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+.count-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: -16px;
+    opacity: 0.6;
+
+}
